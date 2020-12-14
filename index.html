@@ -1,0 +1,565 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>CretechBD</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- BootStrap CSS -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- hover css -->
+  <link rel="stylesheet" href="css/hover.css">
+
+
+
+  <meta name="theme-color" content="#fafafa">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    type="text/css" />
+
+
+
+  <script type="text/javascript">
+    /// some script
+
+    // jquery ready start
+    $(document).ready(function () {
+      // jQuery code
+
+      //////////////////////// Prevent closing from click inside dropdown
+      $(document).on('click', '.dropdown-menu', function (e) {
+        e.stopPropagation();
+      });
+
+
+    }); // jquery end
+  </script>
+
+  <style type="text/css">
+    @media all and (min-width: 992px) {
+      .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .navbar .has-megamenu {
+        position: static !important;
+      }
+
+      .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .navbar .nav-link {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <aside class="sandwich-menu">
+    <div class="logo"> <img src="images/logo/logo.png" alt="Image"> </div>
+    <!-- end logo -->
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Corpration</a>
+        <ul class="dropdown">
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="mission-vision.html">Mission - Vision</a></li>
+          <li><a href="team-members.html">Team Members</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="our-offices.html">Our Offices</a></li>
+          <li><a href="press-releases.html">Press Releases</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="career.html">Career</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="404-error.html">404 Error</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Solutions</a>
+        <ul class="dropdown">
+          <li><a href="#">Business</a>
+            <ul class="dropdown">
+              <li><a href="solutions01.html">Business Development</a></li>
+              <li><a href="solutions02.html">Partners Investment</a>
+                <ul class="dropdown">
+                  <li><a href="#">Testing Dropdown</a></li>
+                  <li><a href="#">Dropdown Investment</a></li>
+                  <li><a href="#">System Dropdown</a></li>
+                  <li><a href="#">Dropdown Stratagies</a></li>
+                </ul>
+              </li>
+              <li><a href="solutions03.html">System Tips & Tricks</a></li>
+              <li><a href="solutions04.html">Business Stratagies</a></li>
+            </ul>
+          </li>
+          <li><a href="solutions05.html">Consultation</a></li>
+          <li><a href="solutions06.html">Career</a></li>
+          <li><a href="solutions07.html">Training</a></li>
+          <li><a href="solutions08.html">Management</a></li>
+          <li><a href="solutions09.html">Startups</a></li>
+        </ul>
+      </li>
+      <li><a href="showcases.html">Showcases</a></li>
+      <li><a href="#">News</a>
+        <ul class="dropdown">
+          <li><a href="news-sidebar-left.html">w Sidebar Left</a></li>
+          <li><a href="news-sidebar-right.html">w Sidebar Right</a></li>
+          <li><a href="news-sidebar-nosidebar.html">without Sidebar</a></li>
+          <li><a href="news-single-sidebar-left.html">w Sidebar Left Single</a></li>
+          <li><a href="news-single-sidebar-right.html">w Sidebar right Single</a></li>
+          <li><a href="news-single-nosidebar.html">without Sidebar Single</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- end nav-menu -->
+
+    <ul class="social-media">
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+    </ul>
+    <!-- end social-media -->
+    <span class="copyright"></span>
+  </aside>
+  <!-- end sandwich-menu -->
+
+  <div id="wrapper">
+    <!-- Header begin -->
+    <header>
+      <div class=" text-dark top_wrapper d-flex justify-content-center align-items-center">
+        <!-- Top header Begin -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="top_header d-flex justify-content-end">
+                <div class="mail d-flex justify-content-center align-items-center">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                  </svg>
+                  <p class="pr-4 pl-2">info@cretechbd.com</p>
+                </div>
+                <div class="mobile d-flex justify-content-center align-items-center">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                  </svg>
+                  <p class="pr-4 pl-2">+88 01711119651</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Top header End -->
+
+      <!-- //////////////////////////// -->
+
+      <!-- navbar begin -->
+      <div class=" navbar_wrapper ">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
+                <!-- Logo begin -->
+                <div id="logo">
+                  <a class="navbar-brand" href="#">
+                    <img class="w-100" src="images/logo/logo.png" alt="">
+                  </a>
+                </div>
+                <!-- Logo end -->
+                <div class="custom_nav_css">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav text-dark">
+                      <li class="nav-item active home"> <a class="nav-link" href="#">Home</a> </li>
+                      <li class="nav-item"><a class="nav-link" href="#">About US</a></li>
+                      <li class="nav-item dropdown has-megamenu">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Services </a>
+                        <div class="dropdown-menu megamenu" role="menu">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">WEB DESIGN & DEVELOPMENT</a></li>
+                                  <li><a href="#">Ecomerce Development </a></li>
+                                  <li><a href="#">Informational Websites</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">SOFTWARE DEVELOPMENT</a></li>
+                                  <li><a href="#">MOBILE APPS DEVELOPMENT</a></li>
+                                  <li><a href="#">Digital Markting</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">Graphics Design</a></li>
+                                  <li><a href="#">BROCHURE DESIGN</a></li>
+                                  <li><a href="#">IMAGE PROCESSING</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div>
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">SEO</a></li>
+                                  <li><a href="#">OFF Page SEO</a></li>
+                                  <li><a href="#">On Page SEO</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                          </div><!-- end row -->
+                        </div> <!-- dropdown-mega-menu.// -->
+                      </li>
+                      <li class="nav-item dropdown has-megamenu">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Mega menu</a>
+                        <div class="dropdown-menu megamenu" role="menu">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">Inventory Management</a></li>
+                                  <li><a href="#">Pharmachy Management</a></li>
+                                  <li><a href="#">Lubricant Management</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">Point of sell</a></li>
+                                  <li><a href="#">Restaurant Management</a></li>
+                                  <li><a href="#">School Management</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">Super shop Management</a></li>
+                                  <li><a href="#">HR & Payroll Software</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div>
+                            <div class="col-md-3">
+                              <div class="col-megamenu">
+                                <ul class="list-unstyled">
+                                  <li><a href="#">NGO Management</a></li>
+                                  <li><a href="#">Bike Showroom Management</a></li>
+                                </ul>
+                              </div> <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                          </div><!-- end row -->
+                        </div> <!-- dropdown-mega-menu.// -->
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="#">Our Team</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                      <li class="nav-item btn_c contact_us "><a class="nav-link hvr-icon-grow-rotate" href="#">Contact
+                          US <i class="fa fa-phone hvr-icon"> </i></a></li>
+                    </ul>
+                  </div> <!-- navbar-collapse.// -->
+                </div>
+                <div class="sandwich-btn"> <span></span> <span></span> <span></span> </div>
+                <!-- end sandwich-btn -->
+                <div class="bottom-bar"></div>
+                <!-- end bottom-bar --> 
+              </nav>
+            </div>
+          </div>
+          </nav>
+          <!-- navbar begin -->
+        </div>
+
+      </div>
+
+
+    </header>
+  </div>
+  <!-- Header End -->
+
+
+  <!-- slider Section Start -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol> -->
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="images/banner/bg1.jpg" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Light mask</h3>
+          <p>First text</p>
+          <a href="#" class="btn btn-outline-success">Discuss With US</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="images/banner/bg2.jpg" alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">ENTERPRISE SOFTWARE DEVELOPMENT</h3>
+          <p> CretechBD offers a full spectrum of application design, development, maintenance and support services
+            along with flexibility of engagement models and project scopes.
+          </p>
+          <a href="#" class="btn btn-outline-success">Discuss With US</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100 carousel_overlay" src="images/banner/bg3.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">MOBILE APP DEVELOPMENT SERVICES</h3>
+          <p>End-to-end mobile application development for consumer-facing and corporate environments
+          </p>
+          <a href="#" class="btn btn-outline-success">Discuss With US</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="images/banner/bg4.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">DIGITAL MARKETING</h3>
+          <p> Strategy • Execution • ROI</p>
+          <a href="#" class="btn btn-outline-success">Discuss With US</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100 carousel_overlay" src="images/banner/bg5.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">GRAPHIC DESIGN</h3>
+          <p> Attention goes to the best creative. Our team can help.
+          </p>
+          <a href="#" class="btn btn-outline-success">Discuss With US</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="images/banner/bg6.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">SEARCH ENGINE OPTIMIZATION</h3>
+          <p> CRETECHBD SEARCH ENGINE OPTIMIZATION EXPERTS
+            "Struggling to grow your business? Ready to make your phone ring off the </p>
+          <a href="#" class="btn btn-outline-success">Discuss With US</a>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <!-- <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+
+
+  <section>
+    <div class="container">
+      <div class="all_heading_style">
+        <h2><strong>What we do</strong></h2>
+      </div>
+      <div class="row what_we_do">
+        <div class="col-md-4">
+          <a href="#" class="">
+            <div>
+              <img height="50px" width="50px" src="images/icon/coding.png" alt="">
+            </div>
+            <h5>WEB DEVELOPMENT</h5>
+            <p>We develop and deliver award-winning, functional, and beautiful web sites that are both technically
+              compliant and aesthetically perfect.</p>
+            <span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <div>
+              <img height="50px" width="50px" src="images/icon/code.png" alt="">
+            </div>
+            <h5>WEB DEVELOPMENT</h5>
+            <p>We develop and deliver award-winning, functional, and beautiful web sites that are both technically
+              compliant and aesthetically perfect.</p>
+            <span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <div>
+              <img height="50px" width="50px" src="images/icon/user-interface.png" alt="">
+            </div>
+            <h5>WEB DEVELOPMENT</h5>
+            <p>We develop and deliver award-winning, functional, and beautiful web sites that are both technically
+              compliant and aesthetically perfect.</p>
+            <span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></span>
+          </a>
+        </div>
+      </div>
+      <div class="row what_we_do">
+        <div class="col-md-4">
+          <a href="#" class="">
+            <div>
+              <img height="50px" width="50px" src="images/icon/digital-campaign.png" alt="">
+            </div>
+            <h5>WEB DEVELOPMENT</h5>
+            <p>We develop and deliver award-winning, functional, and beautiful web sites that are both technically
+              compliant and aesthetically perfect.</p>
+            <span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <div>
+              <img height="50px" width="50px" src="images/icon/seo.png" alt="">
+            </div>
+            <h5>WEB DEVELOPMENT</h5>
+            <p>We develop and deliver award-winning, functional, and beautiful web sites that are both technically
+              compliant and aesthetically perfect.</p>
+            <span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <div>
+              <img height="50px" width="50px" src="images/icon/computer.png" alt="">
+            </div>
+            <h5>WEB DEVELOPMENT</h5>
+            <p>We develop and deliver award-winning, functional, and beautiful web sites that are both technically
+              compliant and aesthetically perfect.</p>
+            <span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <!-- <script src="js/bootstrap.js"></script> -->
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
