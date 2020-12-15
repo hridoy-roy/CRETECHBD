@@ -119,3 +119,18 @@ var $slider = $(".slider"), $bullets = $(".bullets");
 			$(this).toggleClass("open")
 			$(".sandwich-menu").toggleClass("open")
 			});
+
+
+			  /// some script
+
+    // jquery ready start
+    $(document).ready(function () {
+		// jQuery code
+  
+		//////////////////////// Prevent closing from click inside dropdown
+		$(document).on('click', '.dropdown-menu', function (e) {
+		  e.stopPropagation();
+		});
+  
+  
+	  }); // jquery end
