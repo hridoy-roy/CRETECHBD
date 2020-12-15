@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
 a{
   text-decoration: none !important;
 }
@@ -198,10 +205,12 @@ padding: 0 15px;
 
   /* all heading Style css End */
 
-/* what we do start  */
+  /* what_we_do */
+
     .what_we_do 
     
     .what_we_do > div > a{
+      margin: 5px;
       color: #16181b;
     }
     .what_we_do > div > a > div > img{
@@ -215,11 +224,18 @@ padding: 0 15px;
       text-align: center;
     }
     .what_we_do > div > a > h5{
+      text-align: center;
       color: #16181b;
     }
-    .what_we_do
-    .what_we_do
-    .what_we_do
+    .what_we_do > div > a > p{
+      text-align: justify;
+      color: #16181b;
+    }
+    .what_we_do > div > a > span > svg{
+      text-align: center;
+    }
+    .what_we_do > div > a > h5
+    
 
     /* what we do end */
 
@@ -412,6 +428,7 @@ padding: 0 15px;
   margin: 0;
   padding-left: 20px;
 }
+
 
 
 @media all and (min-width: 992px) {
