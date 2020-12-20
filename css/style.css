@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   margin: 0;
+  font-size: 14px;
 }
 
 a {
@@ -617,14 +618,90 @@ padding-bottom: 50px;
   font-family: 'Dancing Script', cursive;
 }
 
+/* work_logo" */
+.work_logo{
+  background-color: #333;
+}
+.work_logo > div > img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 /* Footer Css */
-footer{
+.top_footer{
   padding: 30px 0;
-  background-color: #57c6a1 ;
-  ma 
+  background-color: #222 ; 
 }
 .top_footer .title{
-  font-size: 25px;
+  font-size: 18px;
+  color: #fff ;
+  padding-bottom: 30px;
+}
+
+.top_footer .quick_link > ul {
+  padding: 0 10px;
+}
+.top_footer .quick_link > ul > li {
+  padding: 5px 0;
+}
+.top_footer .quick_link > ul > li > a{
+  color: #CCC;
+  font-size: 14px;
+  font-weight: 400;
+}
+.top_footer .quick_link > ul > li > a:hover{
+  color: #57c6a1;
+ 
+}
+.get-in-touch > address{
+  padding-bottom: 10px;
+  color: #CCC;
+  font-weight: 400;
+  
+}
+.get-in-touch > p{
+  margin: 2px 5px;
+  font-weight: 400;
+  
+}
+.get-in-touch > p > a{
+  color: #CCC;
+}
+
+.top_footer .socisl-icon{
+  text-align: center;
+}
+.top_footer .socisl-icon > a{
+  height: 40px ;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #57c6a1;
+  margin: 0 10px 30px;
+  border-radius: 50px;
+  color: #57c6a1;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.top_footer .socisl-icon > a:hover{
+  background-color: #57c6a1;
+  color: #263238;
+}
+.top_footer .img-card img{
+  border-radius: 5px;
+}
+
+.bottom-footer{
+  background-color: #000;
+  text-align: center;
+}
+.bottom-footer p{
+  color: rgba(255, 255, 255, 0.726);
+  padding: 15px 0;
+  margin: 0;
+
 }

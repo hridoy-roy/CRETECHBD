@@ -153,3 +153,24 @@ var $slider = $(".slider"), $bullets = $(".bullets");
 		  prevEl: '.swiper-button-prev',
 		},
 	  });
+
+	  $(document).ready(function(){
+		$(".owl-carousel").owlCarousel();
+
+			//default settings:
+			autoplay:false
+			autoplayTimeout:5000
+			autoplayHoverPause:false
+
+			
+	  });
+
+	  var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:5,
+    loop:true,
+    margin:100,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});		
