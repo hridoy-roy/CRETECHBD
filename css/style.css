@@ -618,6 +618,29 @@ padding-bottom: 50px;
   font-family: 'Dancing Script', cursive;
 }
 
+.contact_section div > div > h1{
+  font-weight: 200;
+  font-size: 40px;
+  color: #292929;
+  line-height: 60px;
+}
+
+.contact_section{
+background-color: #f3f3f3;
+}
+.contact_section div > div > a{
+  color: #f05a23;
+font-weight: bold;
+font-size: 3rem;
+}
+.contact_section div > .social_icon > div > img{
+  display: inline;
+}
+.contact_section div > .social_icon > div > p{
+  font-size: 1.5rem;
+  display: inline;
+} 
+
 /* work_logo" */
 .work_logo{
   background-color: #333;
