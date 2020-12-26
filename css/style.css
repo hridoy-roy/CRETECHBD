@@ -728,3 +728,21 @@ font-size: 3rem;
   margin: 0;
 
 }
+
+
+/* counter js */
+
+.count-box{
+  background-color: #f05a23;
+  border-radius: 20px;
+
+}
+.count-box > span{
+  font-size: 3rem;
+}
+.count-box > div > div > span{
+  font-size: 2rem;
+}
+.count-box > div > strong{
+  font-size: 1rem;
+}

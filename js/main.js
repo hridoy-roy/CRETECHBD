@@ -174,3 +174,9 @@ owl.owlCarousel({
     autoplayTimeout:1000,
     autoplayHoverPause:true
 });		
+
+// counter js
+
+$('.counter').counterUp({
+          
+});
