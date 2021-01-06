@@ -34,22 +34,34 @@ left: 50%;
 transform: translateX(-50%);
 }
 
-/*Top mail and Mobile */
+/*Top mail and Mobile  top header*/
 
 
 .top_wrapper {
-  background-image: linear-gradient(to right, #57c6a1, #57c6a1);
-  height: 50px;
+  background: #333;
+}
+.top_wrapper a{
+  padding-bottom: 3px;
+  padding-right: 5px;
+  font-weight: 300;
+  line-height: 38px;
+  font-size: 14px;
+}
+.mobile{
+  color: #fff;
+  margin: 0 20px;
+}
+.mail{
+  color: #fff;
+}
+.mobile > a {
+  margin-bottom: 5px;
+  color: #fff;
 }
 
-.top_wrappe p {}
-
-.mobile>p {
+.mail > a {
   margin-bottom: 5px;
-}
-
-.mail>p {
-  margin-bottom: 5px;
+  color: #fff;
 }
 
 /*Top mail and Mobile */
