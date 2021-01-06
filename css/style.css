@@ -778,3 +778,38 @@ font-size: 3rem;
   font-size: 1rem;
   font-weight: 500;
 }
+
+/* Industries We Impact style start  */
+
+.industries_wrap{
+  align-items: center;
+  text-align: center;
+}
+
+.industries_wrap .industries_item > div > div{
+cursor: pointer;
+text-align: center;
+}
+.industries_wrap .industries_item > div > div > div{
+  border: 1px solid #57c6a1;
+  height: 150px;  
+  transition: .5s;
+}
+.industries_wrap .industries_item > div > div > div:hover{
+border-radius: 10px;
+  
+}
+.industries_wrap .industries_item > div > div > div h5{
+padding: 10px 0;
+font-size: 16px;
+}
+.industries_wrap .industries_item > div > div > div img{
+  padding: 10px 0;
+  }
+
+  .industries_wrap .industries-img img{
+    transition: .5s;
+  }
+
+
+/* Industries We Impact style End  */

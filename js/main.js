@@ -180,3 +180,49 @@ owl.owlCarousel({
 $('.counter').counterUp({
           
 });
+
+// Industries We Impact jquery
+
+$(document).ready(function(){
+	$('.industries_wrap > div > div > div >.img-1').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/travel.jpg');
+		$('.industries-img > img').attr('alt','Travel & Hospitality');
+	});
+
+	$('.industries_wrap > div > div > div > .img-2').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/E-commerce.jpg');
+		$('.industries-img > img').attr('alt','Retail & Ecommerce');
+	});
+	
+	$('.industries_wrap > div > div > div > .img-3').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/online.jpg');
+		$('.industries-img > img').attr('alt','Education');
+	});
+	
+	$('.industries_wrap > div > div > div > .img-4').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/healthcare.jpg');
+		$('.industries-img > img').attr('alt','Healthcare');
+	});
+	
+	$('.industries_wrap > div > div > div > .img-5').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/digital.jpg');
+		$('.industries-img > img').attr('alt','Digital Marketing');
+	});
+	
+	$('.industries_wrap > div > div > div > .img-6').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/solution.jpg');
+		$('.industries-img > img').attr('alt','On-Demand Solutions');
+	});
+	
+	$('.industries_wrap > div > div > div > .img-7').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/construction.jpg');
+		$('.industries-img > img').attr('alt','Construction');
+	});
+	
+	$('.industries_wrap > div > div > div > .img-8').click(function(){
+		$('.industries-img > img').attr('src','images/Industries/food-tech.jpg');
+		$('.industries-img > img').attr('alt','Food Tech');
+	});
+	
+	
+});
