@@ -78,13 +78,13 @@ transform: translateX(-50%);
 
 
 .custom_nav_css>div>ul>li {
-  padding: 0 1rem;
+  padding: 0 5px;
 }
 
-.custom_nav_css>div>ul>li>a {
+.custom_nav_css>div>ul>li>a{
   font-size: 1.1rem;
-  color: #16181b;
-  font-weight: 500;
+  color: #000 !important;
+  font-weight: 400;
 }
 
 .custom_nav_css>div>ul>li>div>div>div>div>ul>li {
@@ -94,21 +94,31 @@ transform: translateX(-50%);
 .custom_nav_css>div>ul>li>div>div>div>div>ul>li>a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #333;
+  color: #000;
   font-weight: 500;
+  font-size: 14px;
 }
 
 /* contact us Css */
 
 .contact_us {
-  background-color: #57c6a1;
+  /* background-color: #57c6a1; */
   color: #000;
-  border-radius: 50px;
-
+  margin-left: 5px;
+  padding: 0px !important;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.contact_us i {}
-
+.contact_us span {
+  padding-left:5px;
+}
+.contact_us a{
+ padding: 13px 10px !important;
+  border-radius: 50px;
+  background-color: #57c6a1;
+}
 
 /* navnar css End */
 
